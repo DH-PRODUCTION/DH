@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Vidéaste Mariage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    header {
+      background: #000;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    .services, .materiel, .videos, .temoignages, .contact, .formulaire {
+      margin-top: 40px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .video {
+      margin: 10px 0;
+    }
+    .video-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .video-gallery iframe {
+      width: 100%;
+      max-width: 280px;
+      aspect-ratio: 16/9;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 20px;
+    }
+    a {
+      color: #80cbc4;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #1e1e1e;
+      color: #fff;
+    }
+    input[type="submit"] {
+      background-color: #0077cc;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vidéaste Mariage – Dennis HAJDAR</h1>
+    <p>Créateur d’émotions en images – Disponible partout en France</p>
+  </header>
+
+  <section class="presentation">
+    <h2>À propos de moi</h2>
+    <p>Auto-entrepreneur passionné, je capture vos plus beaux instants avec un regard artistique et un matériel professionnel. Chaque film de mariage est réalisé avec soin pour raconter votre histoire avec authenticité.</p>
+  </section>
+
+  <section class="services">
+    <h2>Services proposés</h2>
+    <ul>
+      <li>Film de mariage complet (30 minute 1 heure)</li>
+      <li>Teaser court à partager</li>
+      <li>Captation de la journée complète</li>
+      <li>Prises de vue par drone (selon conditions)</li>
+      <li>Séances vidéo avant/après mariage</li>
+    </ul>
+  </section>
+
+  <section class="materiel">
+    <h2>Matériel utilisé</h2>
+    <ul>
+      <li>Sony FX3 – Caméra cinéma 4K</li>
+      <li>Drone DJI</li>
+      <li>Appareil photo hybride</li>
+      <li>Micro-cravates / Enregistreurs audio pro</li>
+      <li>Stabilisateur et éclairage LED</li>
+    </ul>
+  </section>
+
+  <section class="videos">
+    <h2>Exemples de réalisations</h2>
+    <div class="video-gallery">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="temoignages">
+    <h2>Témoignages</h2>
+    <p><em>"Une vidéo incroyable, pleine d’émotion. On a revécu notre mariage avec des larmes de joie. Merci infiniment !"</em> – Sophie & Maxime</p>
+    <p><em>"Le teaser était parfait pour Instagram, et nos familles ont adoré le film complet. Travail ultra pro."</em> – Clara & Rayan</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>📞 Téléphone : <strong>06 00 00 00 00</strong></p>
+    <p>📧 Email : <strong>dennis@example.com</strong></p>
+    <p>🌐 Instagram / YouTube : <a href="#">@dennis.videos</a></p>
+  </section>
+
+  <section class="formulaire">
+    <h2>Formulaire de contact</h2>
+    <form action="#" method="post">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+      <input type="submit" value="Envoyer">
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Dennis HAJDAR – Vidéaste de mariage passionné
+  </footer>
+</body>
+</html>
